@@ -1,0 +1,29 @@
+/*opstart op CSS*/
+
+.logo{
+    width: 50px;
+}
+*
+{
+    box-sizing: border-box; /*Gør så padding og border er inkluderet i elementets totale bredde og højde*/
+margin: 0; 
+
+}
+
+nav{
+    background-color: rgb(110, 6, 27);
+    padding: 1%;
+
+}
+
+nav ul{
+    padding: 0;
+    float: right;
+
+}
+
+nav li{
+    display: inline-block; /*Sætter vores listeelementer op ved siden af hinanden og tillader at der kan være elementer ved siden af hinanden*/ 
+    padding: 1%;
+
+}
